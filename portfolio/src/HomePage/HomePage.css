@@ -1,0 +1,20 @@
+.faq-container{
+    width: 100%;
+    background-color: #111111;
+    color: #dddddd
+}
+
+.faq-card{
+    background-color: #2d2d2d;
+    border: 1px solid #404040;
+    transition: border-color 0.2s ease;
+
+}
+.faq-card:hover{
+    border-color: #666666;
+}
+
+.question-text{
+    color: #37ff00;
+    font-weight: bold;
+}
