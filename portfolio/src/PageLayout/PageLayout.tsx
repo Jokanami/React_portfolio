@@ -5,7 +5,7 @@ const PageLayout = () => {
 
     return (
         <>
-            <Navbar bg={"dark"} variant={"dark"} expand="lg">
+            <Navbar bg={"black"} variant={"dark"} expand="lg">
                 <Container>
                     <Navbar.Brand href={"/"} >Mon Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
