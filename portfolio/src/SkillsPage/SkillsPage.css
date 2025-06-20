@@ -1,0 +1,35 @@
+.skills-container{
+    width: 100%;
+    background-color: #111111;
+    padding: 60px 0;
+}
+
+.skills-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.skills-grid-card{
+    background: white;
+    border-radius: 16px;
+    padding: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: none;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skills-grid-card-name{
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    margin: 0;
+}
