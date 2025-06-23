@@ -13,7 +13,6 @@ const PageLayout = () => {
                         <Nav className={"ms-auto"}>
                             <Nav.Link href={"/contacts"}>Me contacter</Nav.Link>
                             <Nav.Link href={"/projects"}>Mes projets</Nav.Link>
-                            <Nav.Link href={"/learnings"}>Mes formations</Nav.Link>
                             <Nav.Link href={"/skills"}>Mes compétences</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
