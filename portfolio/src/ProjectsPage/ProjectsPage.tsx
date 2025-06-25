@@ -75,6 +75,7 @@ function ProjectsPage() {
                 >
                     <h3 className="vertical-timeline-element-title">Baccalauréat Général</h3>
                     <h2 className="vertical-timeline-element-subtitle">Spécialité Mathématiques et NSI (Numérique et Sciences Informatiques)</h2>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Lycée Saint-Thomas D'Aquin Veritas, Oullins</h2>
                     <ul className="py-3">
                         <li>
                             Mention Bien : 15.26/20
@@ -111,6 +112,7 @@ function ProjectsPage() {
                 >
                     <h3 className="vertical-timeline-element-title">Développement d'un jeu Démineur</h3>
                     <h2 className="vertical-timeline-element-subtitle">Auto-formation au langage C# et au moteur Unity</h2>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Lycée Edourad Branly, Lyon</h2>
                     <p className="py-3">
                         <a href={"https://youtu.be/HBrF8LJ0Hfg?si=SNDFD2O4y8uPjGkr"} target={"_blank"}>
                             La vidéo que j'ai utilisé pour me former
@@ -136,7 +138,7 @@ function ProjectsPage() {
 
                 >
                     <h3 className="vertical-timeline-element-title">Formation au framework Symfony</h3>
-                    <h2 className="vertical-timeline-element-subtitle">DZRFPN Sud-Est : Ministère de l'intérieur</h2>
+                    <h2 className="vertical-timeline-element-subtitle">DZRFPN Sud-Est : Ministère de l'intérieur (Stage)</h2>
                     <ul className="py-3">
                         <li>
                             Utilisation de la plateforme Grafikart pour la formation Symfony
@@ -179,6 +181,7 @@ function ProjectsPage() {
                 >
                     <h3 className="vertical-timeline-element-title">Développement d'une application bureau</h3>
                     <h2 className="vertical-timeline-element-subtitle">Client : Centre ARHM de Dardilly</h2>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Lycée Edourad Branly, Lyon</h2>
                     <ul className="py-3">
                         <li>
                             Demande : Permettre aux personnes en situation de handicap et au personnel de signaler leur absence
@@ -210,6 +213,7 @@ function ProjectsPage() {
 
                 >
                     <h3 className="vertical-timeline-element-title">BTS SNIR : Systèmes Numériques Informatique et Réseaux</h3>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Lycée Edourad Branly, Lyon</h2>
                     <ul className="py-3">
                         <li>
                             Note finale : 16.57/20
@@ -244,7 +248,7 @@ function ProjectsPage() {
 
                 >
                     <h3 className="vertical-timeline-element-title">Cercle de projet</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Institut G4</h4>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Institut G4</h2>
                     <ul className="py-3">
                         <li>
                             Développement d'un site Web promouvant les gestes éco-responsables
@@ -274,7 +278,7 @@ function ProjectsPage() {
 
                 >
                     <h3 className="vertical-timeline-element-title">Développement d'un gestionnaire de propsects</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Institut G4</h4>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Institut G4</h2>
                     <ul className="py-3">
                         <li>
                             Outil permettant de gérer la venue de nouveaux élèves au sein de l'institut G4
@@ -308,7 +312,7 @@ function ProjectsPage() {
 
                 >
                     <h3 className="vertical-timeline-element-title">Développement d'un jeu de plateforme à thématique Cyberpunk</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Institut G4</h4>
+                    <h2 className="vertical-timeline-element-subtitle pt-2">Institut G4</h2>
                     <ul className="py-3">
                         <li>
                             Auto-formation au moteur de jeu Godot
