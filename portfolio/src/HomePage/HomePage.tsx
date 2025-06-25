@@ -21,7 +21,7 @@ function HomePage() {
         {
             question: "As-tu une alternance ?",
             answer: "Hélas, pas encore. Je suis à la recherche d'un contrat d'une ou deux années" +
-                "dans le domaine du développement ou de la chefferie de projet. "
+                " dans le domaine du développement ou de la chefferie de projet. "
         },
 
     ];
