@@ -7,4 +7,9 @@
 
 .white-date{
     color: #ffffff;
+    @media (max-width: 1170px) {
+    color: #000000
+
+    }
 }
+
