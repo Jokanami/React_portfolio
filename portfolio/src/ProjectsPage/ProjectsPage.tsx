@@ -20,7 +20,7 @@ function ProjectsPage() {
         <div className={"projects-page-container"}>
 
             <h1 className={"title text-center mb-5 display-4 fw-bold"}>
-                Mes projets
+                Mes projets et formations
             </h1>
 
 
