@@ -1,0 +1,15 @@
+.projects-page-container{
+    width: 100%;
+    background-color: #111111;
+    padding: 60px 0;
+    color: #dddddd
+}
+
+.white-date{
+    color: #ffffff;
+    @media (max-width: 1170px) {
+    color: #000000
+
+    }
+}
+
