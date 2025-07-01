@@ -1,20 +1,28 @@
 .faq-container{
     width: 100%;
     background-color: #111111;
-    color: #dddddd
+    color: #dddddd;
+    padding: 50px 20px;
 }
 
-.faq-card{
-    background-color: #2d2d2d;
-    border: 1px solid #404040;
-    transition: border-color 0.2s ease;
-
+.flipcards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px; /* Espacement entre les cartes */
+    justify-content: center; /* Centre les cartes horizontalement si elles ne remplissent pas toutes les colonnes */
+    align-items: start; /* Aligne les cartes en haut de leur cellule */
+    margin: 0 auto; /* Centre la grille dans le conteneur parent */
 }
-.faq-card:hover{
-    border-color: #666666;
+
+@media (max-width: 600px) {
+    .flipcards-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
-.question-text{
-    color: #37ff00;
-    font-weight: bold;
+@media (min-width: 601px) and (max-width: 992px) { /* Nouvelle tranche pour une meilleure gestion */
+    .flipcards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 ou 3 colonnes généralement */
+    }
 }

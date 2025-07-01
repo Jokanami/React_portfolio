@@ -1,11 +1,12 @@
 import './HomePage.css'
+import FlashCardComponent from "../FlippingCardComponent/FlippingCardComponent.tsx";
 
 function HomePage() {
 
     const faqData = [
         {
             question: "Présente-toi !",
-            answer: "Je m'appelle Dylan ARAUJO LOPES et j'ai 20 ans.\n" +
+            answer: "Je m'appelle Dylan ARAUJO LOPES et j'ai 20 ans. " +
                 "J'aime beaucoup le développement aussi bien logiciel (avec Qt, par exemple) que web (avec React, Symfony)"
         },
         {
@@ -14,14 +15,27 @@ function HomePage() {
         },
         {
             question: "Peux-tu parler des langues étrangères ?",
-            answer: "Oui !\n" +
-                "Je sais parler français (évidemment), Anglais (Section Européenne en Anglais au Bac).\n" +
+            answer: "Oui ! " +
+                "Je sais parler français (évidemment), Anglais (Section Européenne en Anglais au Bac). " +
                 "Je sais également parler Espagnol (DELE niveau B1) et enfin Portugais (grâce à ma famille)"
         },
         {
             question: "As-tu une alternance ?",
             answer: "Hélas, pas encore. Je suis à la recherche d'un contrat d'une ou deux années" +
                 " dans le domaine du développement ou de la chefferie de projet. "
+        },
+        {
+            question: "En dehors du code, quelles sont tes passions ?",
+            answer: "J'adore écouter de la musique (Rock, Metal, Pop, Hip-Hop). " +
+                "Quand j'ai du temps, j'aime bien jouer de la basse. " +
+                "J'aime beaucoup regarder des séries (surtout animées). " +
+                "J'étais un gros joueur mais j'ai beaucoup ralenti dernièrement."
+        },
+        {
+            question: "Pourquoi t'es-tu lancé dans l'informatique ?",
+            answer: "Au début, je voulais me lancer dans des études de droit ou de langue mais " +
+                "après quelques désillusions, j'ai décidé de me tourner vers l'informatique avec pour seul objectif de devenir développeur Web. " +
+                "En 1ère et en terminale, j'y ai vraiment pris goût et j'ai décidé de poursuivre pour acquérir plus de connaissances."
         },
 
     ];
@@ -34,22 +48,15 @@ function HomePage() {
                         À propos de moi
                     </h1>
 
-                    {faqData.map((item, index) => (
-                        <div key={index} className={"faq-card rounded p-4 mb-4"}>
-                            <div className={"question-label fs-5 me-3 flex-shrink-0"}>
-                                <span className={"question-text fs-5"}>{item.question}</span>
-                            </div>
-
-                            <div className={"question-answer fs-5 me-3 flex-shrink-0"}>
-                                <span className={"question-answer-text"}>{item.answer}</span>
-                            </div>
-                        </div>
-                    ))}
-
-
-
-
-
+                    <div className={"flipcards-grid"}>
+                        {faqData.map((item, index) => (
+                            <FlashCardComponent
+                                key={index}
+                                question={item.question}
+                                answer={item.answer}
+                            />
+                        ))}
+                    </div>
 
                 </div>
             </div>
