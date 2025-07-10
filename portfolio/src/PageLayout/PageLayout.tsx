@@ -8,10 +8,11 @@ const PageLayout = () => {
         <>
             <Navbar bg={"black"} variant={"dark"} expand="lg">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">Mon Portfolio</Navbar.Brand>
+                    <Navbar.Brand>Dylan ARAUJO LOPES</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className={"ms-auto"}>
+                            <Nav.Link as={Link} to="/">Accueil</Nav.Link>
                             <Nav.Link as={Link} to="/contacts">Me contacter</Nav.Link>
                             <Nav.Link as={Link} to="/projects">Mes projets et formations</Nav.Link>
                             <Nav.Link as={Link} to="/skills">Mes compétences</Nav.Link>
