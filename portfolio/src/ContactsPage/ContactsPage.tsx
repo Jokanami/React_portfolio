@@ -56,6 +56,7 @@ function ContactsPage() {
                                 <div className="card-body">
                                     <h5 className="card-title">Email</h5>
                                     <p className="card-text">dylan.lopes51@gmail.com</p>
+                                    {/*<a href="mailto:dylan.lopes51@gmail.com" className="btn" style={{backgroundColor: "#c5221f", color: "white"}}>Envoyer un mail</a>*/}
                                 </div>
                             </div>
                         </div>
@@ -71,7 +72,7 @@ function ContactsPage() {
                                 />
                                 <div className="card-body">
                                     <h5 className="card-title">LinkedIn</h5>
-                                    <a href="https://www.linkedin.com/in/dylan-araujo-lopes-89b052252/" target="_blank" rel="noreferrer" className="btn btn-primary">Voir le profil</a>
+                                    <a href="https://www.linkedin.com/in/dylan-araujo-lopes-89b052252/" target="_blank" rel="noreferrer" className="btn" style={{backgroundColor: "#0077B5", color: "white"}}>Voir le profil</a>
                                 </div>
                             </div>
                         </div>
