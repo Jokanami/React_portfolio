@@ -6,7 +6,7 @@ const PageLayout = () => {
 
     return (
         <>
-            <Navbar bg={"black"} variant={"dark"} expand="lg">
+            <Navbar bg={"black"} variant={"dark"} expand="lg" style={{zIndex: 1}}>
                 <Container>
                     <Navbar.Brand>Dylan ARAUJO LOPES</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

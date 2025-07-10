@@ -1,5 +1,6 @@
 import './HomePage.css'
 import FlashCardComponent from "../FlippingCardComponent/FlippingCardComponent.tsx";
+import Particles from "../ParticlesBackgroundComponent/ParticlesBackgroundComponent.tsx";
 
 function HomePage() {
 
@@ -42,6 +43,19 @@ function HomePage() {
 
     return (
         <div className={"faq-container py-2"}>
+
+            <Particles className={"particles-background"}
+                particleColors={['#78d990', '#78d990']}
+                particleCount={300}
+                particleSpread={10}
+                speed={0.1}
+                particleBaseSize={200}
+                moveParticlesOnHover={false}
+                alphaParticles={false}
+                disableRotation={false}
+            />
+
+
             <div className="row justify-content-center">
                 <div className="col-lg-8">
                     <h1 className="title text-center mb-5 display-4 fw-bold">
